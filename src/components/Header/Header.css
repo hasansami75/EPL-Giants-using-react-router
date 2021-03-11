@@ -1,0 +1,25 @@
+.bg-image{
+    background-image: url(../../../src/team-tracker/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+.bg-text{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -55%);
+}
+.h1-color{
+        margin: 1em 0 0.5em 0;
+        color: white;
+        font-weight: normal;
+        font-family: 'Ultra', sans-serif;   
+        font-size: 56px;
+        line-height: 42px;
+        text-transform: uppercase;
+        text-shadow: 0 2px white, 0 3px #777;
+    }

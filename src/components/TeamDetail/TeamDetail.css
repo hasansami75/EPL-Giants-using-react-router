@@ -1,0 +1,29 @@
+.img-resize{
+    height: 300px;
+    width: 300px;
+}
+.bg-color{
+    background-color: #19547b;
+}
+.detail-bg-image{
+    background-image: url(../../../src/team-tracker/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+.detail-bg-image::before{
+    content: '';
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    background-color: rgba(255, 255, 255, 0.719);
+    top: 0;
+    left: 0;
+}
+.icon-resize{
+    width: 100px;
+    height: 100px;
+}
